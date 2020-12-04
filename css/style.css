@@ -8,8 +8,8 @@ body {
 
 .card {
   background-color: white;
-  width: 550;
-  height: 550;
+  min-width: 350;
+  min-height: 450;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
   margin: auto;
   padding: auto;
@@ -63,7 +63,7 @@ span {
 
 @media (min-width: 1000px) {
   .card {
-    width: 100%;
+    width: 50%;
     font-size: 1.5em;
   }
 }
