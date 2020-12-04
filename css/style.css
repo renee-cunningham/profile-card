@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  padding: auto;
+  border-radius: 6px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+#card-pattern {
+  flex: 2;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+#profile {
+  border-radius: 50%;
+  border: 0.2em solid white;
+  width: 5em;
+  height: 5em;
+  margin: -2.2em auto;
+}
+
+#profile img {
+  width: 100%;
+  z-index: 2;
+}
+
+#name {
+  padding: 8px;
+  margin: 8px;
+}
+
+span {
+  color: gray;
+}
+
+#follower-count {
+  letter-spacing: 0.2em;
+}
+
+#stats p {
+  margin: 0;
+  letter-spacing: 0.2em;
+}
+
+.attribution {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .card {
+    width: 50%;
+    font-size: 1.5em;
+  }
+}
