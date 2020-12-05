@@ -8,8 +8,8 @@ body {
 
 .card {
   background-color: white;
-  min-width: 250;
-  min-height: 350;
+  max-width: 450px;
+  max-height: min-content;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
   margin: auto;
   padding: auto;
@@ -19,7 +19,7 @@ body {
 }
 
 #card-pattern {
-  flex: 2;
+  width: 100%;
   background-size: cover;
   border-radius: 6px;
 }
@@ -63,7 +63,6 @@ span {
 
 @media (min-width: 1000px) {
   .card {
-    width: 50%;
     font-size: 1.5em;
   }
 }
